@@ -1,16 +1,11 @@
- {
-   "dist": xenial,
-    "language": "java",
-    "sudo": false,
-    "jdk": [
-        "openjdk11"
-    ],
-    "install": [
-        "true"
-    ],
-    "cache": {
-      "directories": [
-          "$Home/.m2"
-      ]
-    }
-  }
+language: java
+sudo: false
+dist: xenial
+jdk: AdoptOpenJDK11
+install: true
+cache:
+  directories:
+    - $HOME/.m2
+
+before_install:
+  - chmod +x mvnw
