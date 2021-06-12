@@ -1,9 +1,6 @@
  {
+   "dist": xenial,
     "language": "java",
-    "os": [
-        "windows"
-    ],
-    "dist": xenial,
     "sudo": false,
     "jdk": [
         "openjdk11"
