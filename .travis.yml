@@ -1,9 +1,9 @@
  {
     "language": "java",
     "os": [
-        "linux"
+        "windows"
     ],
-    "dist": "xenial",
+    "dist": xenial,
     "sudo": false,
     "jdk": [
         "openjdk11"
