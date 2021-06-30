@@ -1,8 +1,8 @@
-package com.api.pizzadelivery.service;
+/*package com.api.pizzadelivery.service;
 
 import com.api.pizzadelivery.dto.MessageResponseDTO;
 import com.api.pizzadelivery.dto.RestaurantDTO;
-import com.api.pizzadelivery.entity.Restaurant;
+import com.api.pizzadelivery.restaurants.entity.Restaurant;
 import com.api.pizzadelivery.exception.RestaurantNotFoundException;
 import com.api.pizzadelivery.mapper.RestaurantMapper;
 import com.api.pizzadelivery.repository.RestaurantRepository;
@@ -63,4 +63,4 @@ public class RestaurantServiceImpl implements RestaurantService {
         // TODO Auto-generated method stub
         return null;
     }
-}
+}*/

@@ -1,4 +1,4 @@
-package com.api.pizzadelivery.service;
+/*package com.api.pizzadelivery.service;
 
 import com.api.pizzadelivery.dto.MessageResponseDTO;
 import com.api.pizzadelivery.dto.RestaurantDTO;
@@ -17,3 +17,4 @@ public interface RestaurantService {
     public MessageResponseDTO delete(Long id);
 
 }
+*/

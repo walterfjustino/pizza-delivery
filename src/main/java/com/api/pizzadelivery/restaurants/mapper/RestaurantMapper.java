@@ -1,7 +1,7 @@
-package com.api.pizzadelivery.mapper;
+/*package com.api.pizzadelivery.restaurants.mapper;
 
-import com.api.pizzadelivery.dto.RestaurantDTO;
-import com.api.pizzadelivery.entity.Restaurant;
+
+import com.api.pizzadelivery.restaurants.entity.Restaurant;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
@@ -15,5 +15,5 @@ public interface RestaurantMapper {
 
     RestaurantDTO toDTO(Restaurant restaurant);
 
-}
+}*/
     

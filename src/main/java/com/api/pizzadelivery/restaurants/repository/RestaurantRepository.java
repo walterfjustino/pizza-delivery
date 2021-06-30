@@ -1,6 +1,7 @@
-package com.api.pizzadelivery.repository;
+/*
+package com.api.pizzadelivery.restaurants.repository;
 
-import com.api.pizzadelivery.entity.Restaurant;
+import com.api.pizzadelivery.restaurants.entity.Restaurant;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -9,3 +10,4 @@ import org.springframework.stereotype.Repository;
 public interface RestaurantRepository extends JpaRepository <Restaurant, Long> {
 
 }
+*/
