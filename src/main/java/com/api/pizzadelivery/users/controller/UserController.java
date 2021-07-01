@@ -6,12 +6,12 @@ import com.api.pizzadelivery.users.entity.User;
 import com.api.pizzadelivery.users.service.CreateUserServiceImpl;
 import com.api.pizzadelivery.users.service.GetUserServiceImpl;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.List;
 
 @RequiredArgsConstructor
 @RestController
@@ -28,9 +28,14 @@ public class UserController {
     return new ResponseEntity<>((user), HttpStatus.CREATED);
     }
 
+    @GetMapping("/")
+    public ResponseEntity <List<UserDTO>> findAll(){
+        return new ResponseEntity<>(getUserServiceImpl.findAll(),HttpStatus.OK) ;
+    }
+
    @GetMapping("/{id}")
-    public ResponseEntity<User> getUserById(@PathVariable Long id){
-    User user = getUserServiceImpl.findById(id);
+    public ResponseEntity<UserDTO> getUserById(@PathVariable Long id){
+    UserDTO user = getUserServiceImpl.findById(id);
     return new ResponseEntity<>((user),HttpStatus.OK);
 
     }
